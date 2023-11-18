@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    background: url(https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=);
+    background-size: cover;
+}
+button{
+    background-color: #D0D0D0D0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#display{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.grid_cal{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #C0C0C0C0;
+}
+
+.grid_num{
+    background-color: rgba(33, 19, 30, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
